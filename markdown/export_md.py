@@ -31,17 +31,3 @@ for file in notes:
     with open(path, 'w') as new_file:
         new_file.write(frontMatter)
         new_file.write(data)
-
-#f1 = notes[0]
-
-"""
-with open(f1, 'r') as current:
-    data = current.read()
-    print(data)
-
-f2 = './lessons/new.md'
-
-with open(f2, 'w') as new_file:
-    new_file.write(frontMatter)
-    new_file.write(data)
-"""
